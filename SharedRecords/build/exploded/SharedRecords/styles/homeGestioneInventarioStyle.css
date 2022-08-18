@@ -1,0 +1,110 @@
+body {background-color: #282828;}
+ 
+ div {margin-left: 60px;  margin-top:40px;}
+ 
+ div.title {
+  background: url(https://pngimg.com/uploads/vinyl/vinyl_PNG102.png);
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position:100px 0px;
+ }
+ 
+ h1 {color: #f00000;
+   padding-left: 5px;
+    word-spacing:25px;}
+    
+ h2 {color: #f00000;
+   padding-left: 0px;}
+   
+ label {color: #e6e6e6; padding-left:8px;}
+ 
+ input {background-color: #e0e0e0;
+   margin: 8px;
+   border-radius: 5px;
+   padding-top:3px;
+   padding-bottom:3px;
+   width: 200px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   }
+   
+ /*div.result {background-color: #505050;
+   margin: 8px;
+   border-radius: 5px;
+   padding-top:3px;
+   padding-bottom:3px;
+   width: 525px;
+   height: 250px;
+   resize: none;
+ }*/
+ /*input#reg { background-color : #f00000;
+    color: #e0e0e0;
+    border-radius: 5px; 
+    margin-left:5px;
+    width: 75px;}*/
+    
+ input#reg {
+  background-color: #f00000; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ 
+ input#tabreg {
+  background-color: transparent; /* Green */
+  border: none;
+  color: black;
+  font-size: 16px;
+  box-shadow: none;
+}
+
+
+table {
+ background-color: #606060;
+ border-collapse: collapse;
+ width: 550px;
+}
+
+td, th {
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
+}
+
+tr:nth-child(even) {
+ background-color: #dddddd;
+}
+
+
+
+
+
+ul {
+ width:290px;
+ list-style-type: none;
+ margin-left: 0px;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333333;
+}
+
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 16px;
+ text-decoration: none;
+}
+
+li a:hover {
+ background-color: #111111;
+}
